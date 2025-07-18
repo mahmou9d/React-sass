@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect } from "react";
 import { AiOutlineClockCircle, AiFillCloud } from "react-icons/ai";
 import { SiGoogle } from "react-icons/si";

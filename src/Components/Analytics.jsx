@@ -1,5 +1,5 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
-import { onephone } from "./Images";
 import "../Styles/analytics.scss";
 import { motion, useAnimation } from "framer-motion";
 import  { useEffect } from "react";
@@ -100,7 +100,7 @@ const Analytics = () => {
           </div>
         </motion.div>
         <motion.div variants={item2} className="right__analytics">
-          <img src={onephone} alt="" draggable={false} />
+          <img src="./Images/onephone.jpg" alt="" draggable={false} />
         </motion.div>
       </motion.div>
     </div>

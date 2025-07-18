@@ -1,6 +1,6 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect } from "react";
 import "../Styles/dashboardPreview.scss";
-import { dashboard } from "./Images";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -39,7 +39,7 @@ const DashboardPreview = () => {
       animate={control}
       className="app__dashboard"
     >
-      <img src={dashboard} alt="" draggable={false} />
+      <img src="./Images/dashboard.jpg" alt="" draggable={false} />
     </motion.div>
   );
 };

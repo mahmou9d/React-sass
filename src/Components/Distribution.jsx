@@ -1,7 +1,6 @@
 import "../Styles/distribution.scss";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { BsApple } from "react-icons/bs";
-import { twophones } from "./Images";
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -88,7 +87,7 @@ const Distribution = () => {
           </div>
         </motion.div>
         <motion.div variants={item2} className="right__distribution">
-          <img src={twophones} alt="" draggable={false} />
+          <img src="./Images/twophones.jpg" alt="" draggable={false} />
         </motion.div>
       </motion.div>
     </div>

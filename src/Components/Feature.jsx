@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { feature } from "./Images";
 import { TiTick } from "react-icons/ti";
 import "../Styles/feature.scss";
 import Control from "./Control";
@@ -76,7 +75,7 @@ const Feature = () => {
         className="feature__container"
       >
         <motion.div variants={item1} className="left__feature">
-          <img src={feature} alt="" draggable={false} />
+          <img src="./Images/feature.png" alt="" draggable={false} />
         </motion.div>
         <motion.div variants={item2} className="right__feature">
           <div className="right__text">
