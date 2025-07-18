@@ -26,7 +26,7 @@ const Footer = () => {
       <div className="footer__container">
         <div className="footer__top">
           <div className="logo">
-            <p>D'task</p>
+            <p>M'task</p>
           </div>
           <div className="footer__cta">
             <p>Ready to get Started?</p>
